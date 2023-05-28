@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mySvg{
+    width:30px;
+}
+
+main{
+    width: 50%;
+    margin: 10% auto;
+}
