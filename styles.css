@@ -2,12 +2,105 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .mySvg{
     width:30px;
 }
 
 main{
-    width: 50%;
+    width: 30%;
+    min-width: 300px;
     margin: 10% auto;
+    text-align: center;
+    background-color: rgb(230, 234, 238);
+    border-radius: 10px;
+    padding: 40px;
+}
+.image-section{
+    position: relative;
+    text-align: right;
+    height: 60px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(133, 180, 227) ;
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+
+.heading{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    right: 0;
+}
+.myImage{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.comment{
+    margin: 5px;
+    padding: 5px;
+}
+
+.forward, .backward{
+    top: 50%;
+    margin-top: -22px;
+    font-size: 1.5rem;
+    position: absolute;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    background-color:  rgb(133, 180, 227) ;
+    margin-bottom: 50px;
+    color: white;
+    margin: 10px;
+}
+
+  
+  .backward{
+   
+   left:34%;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .forward{
+    right: 34%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+.guess{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(133, 180, 227) ;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+
+@media screen and (max-width:719px) {
+.backward{
+   left:5%;
+    border-radius: 3px 0 0 3px;
+  }
+.forward{
+    right: 5%;
+    border-radius: 3px 0 0 3px;
+  }
 }

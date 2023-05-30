@@ -6,37 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reviews About us</title>
     <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
 </head>
 <body>
      
     <main>
-        <h1>What Our Clients says About Us</h1>
+        <h1 class="heading">Our Reviews</h1>
        <div class="headSection">
-        <img src="https://media.licdn.com/dms/image/C4D03AQEkn9CR5RMFYQ/profile-displayphoto-shrink_800_800/0/1556881633873?e=1691020800&v=beta&t=zuzjScSNhAWD5tjmDTPqNa5MYOTnZq3PKytJTrLNlso" alt="">
-        <h3>John Smilga</h3>
-        <p>Web Designer</p>
+        <div class="myImage">
+          <div class="image-section">
+        <img class="img" src="https://media.licdn.com/dms/image/C4D03AQEkn9CR5RMFYQ/profile-displayphoto-shrink_800_800/0/1556881633873?e=1691020800&v=beta&t=zuzjScSNhAWD5tjmDTPqNa5MYOTnZq3PKytJTrLNlso" alt="">
+        </div>
+        </div>
+        
+        <div class="name-section">
+        <h3 class="name">John Smilga</h3>
+        <p class="position">Web Designer</p>
        </div>
 
-      <article class="comment">
+      <p class="comment ">
         Lorem ipsum dolor, sit amet consectetur 
         adipisicing elit. Hic possimus aliquid cum dolorem quod 
         vel corrupti quis perferendis fuga quibusdam?
-     </article>
+     </p>
+    
 
-       <div class="footerSection">
-        <a href="" class="nextImage forward" onclick="addClick(1)">
-                <svg class="sub-svg mySvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                </svg> 
-              </a>
-        
-              <a href="" class="nextImage backward " onclick="addClick(-1)">
-                <svg class="sub-svg mySvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-                </svg>
-              </a>      
-       </div>
-        <button>Guess</button>
+                
+            <button class="backward">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="forward">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+
+             <br>
+          
+
+       
+        <button class="guess">Guess...</button>
     </main>
     <script src="script.js"></script>
 
